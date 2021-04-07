@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src='http://www.google.com/recaptcha/api.js'></script>
+        <script src="JavaScript" type="text/javascript"></script>
+        
+    </head>
+    <body>
+        <h1 class="mx-auto p-1 bg-success text-white text-center">Login</h1>
+        <form action="Login" method="post">
+            Email <input type="email" name="userid" value="" /> <br/>
+            Password <input type="password" name="password" value="" /> <br/>
+            <input type="submit" value="Login" />
+            <div class="g-recaptcha" data-sitekey="6LeeRmgaAAAAAO1C0xptDuVMaoPaTKELXZ8fYzbO"></div>
+            <a href="ViewCreateAccount">Create new Account</a>
+        </form>
+        <a href="https://www.facebook.com/dialog/oauth?client_id=888820085300876&redirect_uri=http://localhost:8080/J3.L.P0015/LoginFaceBook">Login FaceBook</a>
+        <a href="/J3.L.P0015/">Back</a>
+    </body>
+</html>
